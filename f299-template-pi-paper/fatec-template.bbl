@@ -1,0 +1,157 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{Bezerra.E}{book}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=e10e22c63ae58e313f784fcee917ce5f}{%
+           family={Bezerra},
+           familyi={B\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Campus/Elsevier}%
+      }
+      \strng{namehash}{e10e22c63ae58e313f784fcee917ce5f}
+      \strng{fullhash}{e10e22c63ae58e313f784fcee917ce5f}
+      \strng{bibnamehash}{e10e22c63ae58e313f784fcee917ce5f}
+      \strng{authorbibnamehash}{e10e22c63ae58e313f784fcee917ce5f}
+      \strng{authornamehash}{e10e22c63ae58e313f784fcee917ce5f}
+      \strng{authorfullhash}{e10e22c63ae58e313f784fcee917ce5f}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2th}
+      \field{title}{Principios de Análise e Projeto de Sistemas com UML}
+      \field{year}{2007}
+    \endentry
+    \entry{Boeg.J}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a761836f80b06124eaf93a198185ab5b}{%
+           family={Boeg},
+           familyi={B\bibinitperiod},
+           given={Jesper},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a761836f80b06124eaf93a198185ab5b}
+      \strng{fullhash}{a761836f80b06124eaf93a198185ab5b}
+      \strng{bibnamehash}{a761836f80b06124eaf93a198185ab5b}
+      \strng{authorbibnamehash}{a761836f80b06124eaf93a198185ab5b}
+      \strng{authornamehash}{a761836f80b06124eaf93a198185ab5b}
+      \strng{authorfullhash}{a761836f80b06124eaf93a198185ab5b}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{https://gianfratti.com/wp-content/uploads/2018/04/InfoQBrasil-Kanban10Passos.pdf}
+      \field{title}{Kanban em 10 Passos}
+    \endentry
+    \entry{onu}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed07de2f45d373cf018bc040bb099af9}{%
+           family={ONU},
+           familyi={O\bibinitperiod}}}%
+      }
+      \strng{namehash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{fullhash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{bibnamehash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{authorbibnamehash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{authornamehash}{ed07de2f45d373cf018bc040bb099af9}
+      \strng{authorfullhash}{ed07de2f45d373cf018bc040bb099af9}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Sobre o nosso trabalho para alcançar os Objetivos de Desenvolvimento Sustentável no Brasil}
+      \verb{urlraw}
+      \verb https://brasil.un.org/pt-br/sdgs
+      \endverb
+      \verb{url}
+      \verb https://brasil.un.org/pt-br/sdgs
+      \endverb
+    \endentry
+    \entry{Ribamar.J}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=593d33f4776004e6f52ffd33c6ec7067}{%
+           family={Pesq.\bibnamedelimi Dra.\bibnamedelimi Cintia\bibnamedelimb Righetti\bibnamedelima Marcondes},
+           familyi={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim M\bibinitperiod},
+           given={Brena\bibnamedelimb Roberta\bibnamedelimb do\bibnamedelimb Nascimento\bibnamedelima Cunha},
+           giveni={B\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim d\bibinitperiod\bibinitdelim N\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0,
+           suffix={Pesq.\bibnamedelimi Dr.\bibnamedelimi José\bibnamedelimb Ribamar\bibnamedelimb F.\bibnamedelimi Marques},
+           suffixi={P\bibinitperiod\bibinitdelim D\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim R\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim M\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{593d33f4776004e6f52ffd33c6ec7067}
+      \strng{fullhash}{593d33f4776004e6f52ffd33c6ec7067}
+      \strng{bibnamehash}{593d33f4776004e6f52ffd33c6ec7067}
+      \strng{authorbibnamehash}{593d33f4776004e6f52ffd33c6ec7067}
+      \strng{authornamehash}{593d33f4776004e6f52ffd33c6ec7067}
+      \strng{authorfullhash}{593d33f4776004e6f52ffd33c6ec7067}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{howpublished}{Disponível em:\url{https://core.ac.uk/download/pdf/45503779.pdf}."}
+      \field{title}{Melhoramento Genético em Bubalinos}
+      \field{year}{2008}
+    \endentry
+    \entry{Correa.G}{misc}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f4a25f25bdef2eed214b921b453d9705}{%
+           family={Romitto},
+           familyi={R\bibinitperiod},
+           given={Graciana\bibnamedelima Corrêa},
+           giveni={G\bibinitperiod\bibinitdelim C\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{f4a25f25bdef2eed214b921b453d9705}
+      \strng{fullhash}{f4a25f25bdef2eed214b921b453d9705}
+      \strng{bibnamehash}{f4a25f25bdef2eed214b921b453d9705}
+      \strng{authorbibnamehash}{f4a25f25bdef2eed214b921b453d9705}
+      \strng{authornamehash}{f4a25f25bdef2eed214b921b453d9705}
+      \strng{authorfullhash}{f4a25f25bdef2eed214b921b453d9705}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{labeldatesource}{nodate}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{BÚFALOS NO BRASIL}
+      \verb{urlraw}
+      \verb https://www.fazendalaguna.com.br/bufalos-no-brasil/#:~:text=Os%20b%C3%BAfalos%20s%C3%A3o%20animais%20dom%C3%A9sticos,for%C3%A7a%20de%20trabalho%20no%20campo.
+      \endverb
+      \verb{url}
+      \verb https://www.fazendalaguna.com.br/bufalos-no-brasil/#:~:text=Os%20b%C3%BAfalos%20s%C3%A3o%20animais%20dom%C3%A9sticos,for%C3%A7a%20de%20trabalho%20no%20campo.
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
