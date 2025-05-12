@@ -1,210 +1,129 @@
-Os resultados alcançados abrangem diversas áreas do projeto, evidenciando o progresso em múltiplas frentes. Entre os principais destaques, estão a prototipação da aplicação móvel e web, o desenvolvimento da aplicação web, e a modelagem do banco de dados não relacional, contemplando os modelos conceitual, lógico e físico. Também foram elaborados os diagramas de casos de uso, classes e objetos, além da construção do modelo de negócios Canvas. Para a organização e gestão do projeto, a equipe adotou a ferramenta Figma, que, por meio da extensão FigJam, possibilitou a aplicação prática da metodologia Kanban. Essa extensão também desempenhou o papel de repositório central, reunindo e disponibilizando todos os elementos mencionados para consulta e análise colaborativa da equipe.
+O propósito da seção de resultados, como o próprio nome indica, é revelar o que foi encontrado na pesquisa. Essa parte do artigo estará composta dos dados relevantes obtidos e sintetizados pelo autor. 
 
-\subsection*{Protótipo do Sistema}
+Nesta seção, você deverá apresentar todos os elementos solicitados no mapa mental relacionados ao seu projeto: diagramas, protótipos, modelo de negócios, principais funções e componentes desenvolvidos. Para tanto, na subseção a seguir, você poderá consultar como é feita a inserção de figuras, fluxogramas, fotografias, gráficos, tabelas e quadros.
 
-A \Cref{fig:ux-mobile01} representa a interface inicial da aplicação destinada a dispositivos móveis. Após a verificação bem-sucedida dos dados fornecidos no login, os usuários serão redirecionados para esta tela principal. Nesta interface, os usuários terão à disposição o pré-cadastro individual de cada bubalino. Nessa seção, o usuário é encarregado de manipular dados essenciais, tais como nome, identificação (número de identificação da tag), data de nascimento, peso em kg, sexo, raça, e a adição de uma foto para aprimorar a identificação do animal.
+\subsection*{Ilustração e Tabela}
 
-\newpage
-\begin{figure}[!h]
+Independentemente da ilustração (figura, fluxograma, fotografia, gráfico, quadro, entre outras) ou tabela inserida no trabalho, sua identificação deve aparecer na parte superior. Esta identificação deve ser precedida da palavra designativa, seguida de seu número de ordem de ocorrência no texto, em algarismos arábicos, travessão e do respectivo título.
+
+Após a ilustração ou tabela, na parte inferior, indicar a fonte consultada (mesmo sendo produção do próprio autor), legenda, notas e outras informações necessárias à sua compreensão (se houver). A ilustração deve ser citada no texto e inserida o mais próximo possível do trecho a que se refere. A seguir, encontra-se um exemplo para a inserção de um elemento do tipo Gráfico, o \Cref{grph:example}.
+
+\begin{graph}[!h]
 \centering
-\caption{Tela Inicial}%
-\label{fig:ux-mobile01}
-\includegraphics[scale=0.5]{Illustrations/UX-Mobile/Mobi-02.JPG}
+\SetCaptionWidth{\ifbool{@LayoutA}{0.7}{0.72}\linewidth}
+\caption{Exemplo de gráfico}%
+\label{grph:example}
+\includegraphics[width = \CaptionWidth]{grph-example}
 \SourceOrNote{Autoria Própria (2024)}
-\end{figure}
+\end{graph}
 
-Após a conclusão do cadastro do bubalino, os usuários têm a opção de visualizar um prontuário abrangente de todos os animais cadastrados, conforme mostrado na \Cref{fig:ux-mobile02}. Este prontuário oferece informações detalhadas, incluindo nome, número de identificação da tag, sexo, raça. Caso o usuário queira ter uma visão mais detalhada de um prontuário, ele pode acessá-lo pelo segundo ícone no canto superior direito do prontuário .
-
-\newpage
-\begin{figure}[!h]
-\centering
-\caption{Tela Prontruarios}%
-\label{fig:ux-mobile02}
-\includegraphics[scale=0.5]{Illustrations/UX-Mobile/Mobi-03.JPG}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Caso o funcionário escolha o ícone mencionado anteriormente, ele será redirecionado para uma nova tela \Cref{fig:ux-mobile03} onde poderá visualizar e cadastrar novos dados do búfalo escolhido. Nesta tela, é possível inserir e atualizar informações zootécnicas, como peso, altura e alimentação, além de dados sanitários, como vacinas e tratamentos realizados. No caso de uma búfala, também é possível registrar dados reprodutivos, como ciclos de cio, inseminações e partos. Esta funcionalidade visa proporcionar um controle mais completo e preciso sobre a saúde e o desempenho dos animais, facilitando a gestão e melhorando o bem-estar dos bubalinos.
-
-\newpage
-\begin{figure}[!h]
-\centering
-\caption{Tela Prontruario Específico}%
-\label{fig:ux-mobile03}
-\includegraphics[scale=0.4]{Illustrations/UX-Mobile/Mobi-03.02.JPG}
-\includegraphics[scale=0.4]{Illustrations/UX-Mobile/Mobi-03.03.JPG}
-\includegraphics[scale=0.4]{Illustrations/UX-Mobile/Mobi-03.04.JPG}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Na aplicação para dispositivos móveis, também há uma ferramenta que utiliza a metodologia de Kanban \Cref{fig:ux-mobile04} para melhorar a agilidade no manejo dos bubalinos. Essa ferramenta ajuda os funcionários a visualizar as demandas que o proprietário deseja que sejam realizadas com os animais, como tratamentos específicos para determinadas raças, por exemplo. Assim, é possível ter um controle claro do que precisa ser feito, o que está em andamento, o que está parado e o que já foi concluído. Isso facilita a organização e a priorização das tarefas, garantindo um manejo mais eficiente e organizado dos bubalinos.
-
-\newpage
-\begin{figure}[!h]
-\centering
-\caption{Tela Demandas}%
-\label{fig:ux-mobile04}
-\includegraphics[scale=0.6]{Illustrations/UX-Mobile/Mobi-04.JPG}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Para o sistema web, destinado ao proprietário do criadouro, foram prototipadas diversas telas. A tela inicial \Cref{fig:ux-pc01} apresenta informações essenciais para o gerenciamento do criadouro. Nela, o proprietário pode visualizar a quantidade de animais ativos, usuários ativos e inativos, além de gráficos que demonstram a taxa de natalidade, prenhez e gestação. Também são exibidos comparativos detalhados sobre as quantidades de cada raça e sexo, proporcionando uma visão ampla do rebanho. Por fim, a tela inclui um histórico das últimas tarefas realizadas no criadouro, garantindo maior controle e organização das atividades.
-
-\newpage
-\begin{figure}[!h]
-\centering
-\caption{Tela Inicial}%
-\label{fig:ux-pc01}
-\includegraphics[scale=0.3]{Illustrations/UX-PC/Pc-01.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Na tela subsequente \Cref{fig:ux-pc02}, o proprietário pode visualizar as demandas já atribuídas e verificar o status de cada uma delas, classificadas como "Em produção" ou "Finalizada". Além disso, é possível conferir detalhadamente quais demandas foram designadas a cada funcionário e, caso necessário, atribuir novas tarefas. Essa funcionalidade permite ao proprietário manter o controle sobre as atividades em andamento, garantindo uma gestão mais eficiente e organizada do criadouro.
-
-\begin{figure}[!h]
-\centering
-\caption{Tela Atribuição de demandas}%
-\label{fig:ux-pc02}
-\includegraphics[scale=0.3]{Illustrations/UX-PC/Pc-02.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-O proprietário possui também uma tela dedicada ao cadastro de funcionários \Cref{fig:ux-pc03}, onde ele pode adicionar novos membros da equipe e atribuir-lhes credenciais de acesso à aplicação móvel. Essa funcionalidade garante que apenas funcionários autorizados tenham permissão para utilizar a plataforma móvel, mantendo a segurança e a integridade dos dados do criadouro.
-
-\begin{figure}[!h]
-\centering
-\caption{Tela Cadastro de funcionarios}%
-\label{fig:ux-pc03}
-\includegraphics[scale=0.3]{Illustrations/UX-PC/Pc-03.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Para que o proprietário tenha uma visualização abrangente de seus bubalinos, foi desenvolvida a tela "Bubalinos" \Cref{fig:ux-pc04}, onde todos os animais do criadouro são listados em uma tabela. Nessa interface, é possível acessar informações zootécnicas e sanitárias detalhadas de cada animal, facilitando o acompanhamento e a gestão eficiente do rebanho.
-
-\newpage
-\begin{figure}[!h]
-\centering
-\caption{Tela Bubalinos}%
-\label{fig:ux-pc04}
-\includegraphics[scale=0.28]{Illustrations/UX-PC/Pc-04.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Além disso, existem telas específicas destinadas a cada nicho, como a tela de "Dados Zootécnicos" \Cref{fig:ux-pc05} e a de "Dados Sanitários" \Cref{fig:ux-pc06} Cref de cada bubalino. Essas interfaces permitem ao proprietário acessar e gerenciar informações detalhadas relacionadas ao desempenho produtivo, histórico reprodutivo e condições de saúde de cada animal, apresentando gráficos para uma visualização mais clara e tabelas organizadas para consulta dos dados de forma estruturada e acessível.
-
-\begin{figure}[!h]
-\centering
-\caption{Controle Zootecnico}%
-\label{fig:ux-pc05}
-\includegraphics[scale=0.28]{Illustrations/UX-PC/Pc-05.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\newpage
-\begin{figure}[!h]
-\centering
-\caption{Controle Sanitario}%
-\label{fig:ux-pc06}
-\includegraphics[scale=0.3]{Illustrations/UX-PC/Pc-06.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\subsection*{Modelagem do Banco de Dados}
-
-A representação gráfica da modelagem de Banco de Dados \Cref{fig:banco1} e \Cref{fig:banco2}  oferece uma visão perspicaz e abrangente da estrutura que será implementada no banco de dados não relacional (NoSql). Essa representação gráfica é fundamental, pois proporciona uma compreensão detalhada e clara de como os dados serão organizados, destacando as entidades, atributos e fornecendo uma visão intuitiva da arquitetura do sistema de armazenamento de informações. 
-
-\begin{figure}[!h]
-\centering
-\caption{Modelo Conceitual}%
-\label{fig:banco1}
-\includegraphics[scale=0.2]{Illustrations/Conceitual3Sem.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\newpage
-
-\begin{figure}[!h]
-\centering
-\caption{Modelo Logico}%
-\label{fig:banco2}
-\includegraphics[scale=0.2]{Illustrations/Lógico3Sem.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-Essa etapa é crucial para garantir que o sistema não apenas armazene dados, mas sim deixa claro a possibilidade de recuperar dados, mas também gerenciá-los de maneira eficiente e consistente, alinhada com a estrutura cuidadosamente planejada durante as fases de modelagem. A implementação bem-sucedida do banco de dados é fundamental para a funcionalidade global do sistema, promovendo a integridade e a eficácia na manipulação dos dados. Seguindo as etapas anteriores, concretizou-se o banco de dados físico.
-
-\subsection*{Diagrama de Redes}
-
-Para o sistema que abrange tanto desktop quanto dispositivos móveis, foi desenvolvido um diagrama \Cref{fig:redes} detalhado para ilustrar a estrutura de rede necessária. Este diagrama inclui componentes essenciais como o provedor de internet, o modem para conectar-se à internet, um switch para gerenciar a comunicação entre os dispositivos, um roteador Wi-Fi para fornecer conectividade sem fio, e, é claro, os próprios dispositivos, como computadores desktop e dispositivos móveis. Essa representação visual oferece uma visão abrangente da infraestrutura de rede, delineando como cada componente se conecta e interage para garantir uma comunicação eficiente e confiável em todo o sistema.
-
-\newpage
-\begin{figure}[!h]
-\centering
-\caption{Diagrama de Rede}%
-\label{fig:redes}
-\includegraphics[scale=0.04]{Illustrations/diagramaRedes.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{figure}
-
-\subsection*{Diagramas UML}
-
-A partir do Diagrama de Caso de Uso (DCU) \Cref{fcht:casodeuso}, é possível identificar o ator principal deste sistema, que é o usuário, abrangendo tanto os proprietários quanto os funcionários. Realiza-se, então, o mapeamento das ações do usuário identificado. Essas ações abrangem desde a criação da conta, na Dashboard, para o acesso à aplicação em dispositivos móveis. Esse mapeamento detalhado proporciona uma compreensão abrangente das interações do usuário com o sistema.
-
+Em computação, é muito comum a utilização de fluxogramas, para documentar, estudar, planejar, melhorar e comunicar processos complexos por meio de diagramas claros e fáceis de entender. Um fluxograma é um diagrama que descreve um processo, sistema ou algoritmo de computador. O \Cref{fcht:ex-algorithm} é um dos vários exemplos deste tipo de ilustração que pode ser gerado ou editado na ferramenta \textit{online} \href{http://www.lucidchart.com/}{Lucidchart}, entre outras.
 
 \begin{flowchart}[!htb]
 \centering
-\caption{Diagrama Casos de Uso}%
-\label{fcht:casodeuso}
-\includegraphics[scale=0.04]{Illustrations/casosUso.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{flowchart}
-\newpage
-
-Além disso, foi elaborado o diagrama de classes \Cref{fcht:classe}, uma etapa fundamental no desenvolvimento do sistema, pois permite uma representação visual das entidades e suas interações, contribuindo para a definição clara das classes e suas respectivas funções. Essa ferramenta desempenha um papel crucial na arquitetura e organização do código, facilitando o entendimento e a manutenção do sistema ao longo do tempo.
-
-\begin{flowchart}[!htb]
-\centering
-\caption{Diagrama de classe}%
-\label{fcht:classe}
-\includegraphics[scale=0.04]{Illustrations/casosClasse.png}
+\caption{Exemplo de fluxograma de algoritmo}%
+\label{fcht:ex-algorithm}
+\includegraphics[scale=0.4]{fcht-ex-algorithm}
 \SourceOrNote{Autoria Própria (2024)}
 \end{flowchart}
 
-E por último, foi elaborado o diagrama de objetos \Cref{fcht:obejto}, uma etapa essencial para exemplificar quais dados devem ser inseridos em cada atributo das instâncias de classe. Esse diagrama proporciona uma visão detalhada das relações entre os objetos e seus atributos, facilitando a compreensão do fluxo de dados dentro do sistema
-
-\begin{flowchart}[!htb]
-\centering
-\caption{Diagrama de objeto}%
-\label{fcht:obejto}
-\includegraphics[scale=0.04]{Illustrations/casosObjeto.png}
-\SourceOrNote{Autoria Própria (2024)}
-\end{flowchart}
-
-O Modelo de Negócios Canvas \Cref{fig:canvas}, propõe agilizar o processo de manejo de bubalinos como sua principal proposta de valor. Este projeto tem como objetivo atender pecuaristas com foco na criação de bubalinos, estabelecendo parcerias com fornecedores de equipamentos agropecuários, universidades e instituições de pesquisa para inovação tecnológica, além da colaboração com associações de produtores de bubalinos.
+O LaTeX tem uma biblioteca específica para utilizar imagens no documento. O pacote graphicx habilita um ambiente chamado figure, que permite que você insira imagens de uma forma simples no texto. A \Cref{fig:example-image-duck} é um exemplo deste tipo de ilustração.
 
 \begin{figure}[!h]
 \centering
-\caption{Canvas}%
-\label{fig:canvas}
-\includegraphics[scale=0.06]{Illustrations/canvas.png}
+\caption{Exemplo de figura}%
+\label{fig:example-image-duck}
+\includegraphics[scale=1.2]{example-image-duck}
 \SourceOrNote{Autoria Própria (2024)}
 \end{figure}
 
-Os canais de comunicação estabelecidos abrangem vendas diretas para fazendas, plataformas online, comunicação por telefone e email.
-Para a construção da aplicação móvel, identificaram-se recursos necessários, como a disponibilidade de equipamentos e a configuração de um banco de dados. As principais despesas previstas para a execução do projeto incluem a contratação da equipe de desenvolvimento e a aquisição do ambiente para o desenvolvimento.
-A fim de cobrir os custos do projeto, elaborou-se um esquema de serviços de suporte técnico e taxas de licenciamento do software como fontes de renda.
+Caso seja necessário, você ainda poderá inserir fotografias, por meio do ambiente \textit{photograph}, conforme ilustrado na \Cref{phot:pg-campus}.
 
-\subsection*{KanBam}
-
-
-A metodologia "\textit{Kanban}" \Cref{fig:kanbam} desempenhou um papel fundamental na organização da equipe durante o desenvolvimento do trabalho. A estrutura foi dividida em quatro quadros principais: 'To do' (A fazer), 'In Progress' (Em andamento), 'Stopped' (Parado) e 'Done' (Concluído). Cada quadro teve uma função específica no gerenciamento do projeto. No quadro 'To do', eram agrupadas as tarefas ainda não iniciadas. O quadro 'In Progress' reunia as atividades que estavam sendo desenvolvidas, enquanto o quadro 'Stopped' indicava as tarefas que, por algum motivo, estavam pausadas temporariamente. Por fim, o quadro 'Done' registrava as tarefas já concluídas. Essa metodologia proporcionou à equipe uma visão ampla e organizada do andamento do projeto, facilitando o acompanhamento do progresso, a identificação de gargalos e a eficiência na execução das atividades.
-
-\begin{figure}[!h]
+\begin{photograph}[!h]
 \centering
-\caption{KanBan}%
-\label{fig:kanbam}
-\includegraphics[scale=0.08]{Illustrations/KanBan.png}
+\SetCaptionWidth{\ifbool{@LayoutA}{0.7}{0.72}\linewidth}
+\caption{Fachada da Fatec de Registro}%
+\label{phot:pg-campus}
+\savebox0{\includegraphics[width = \CaptionWidth]{Illustrations/fachada-fatec.jpg}}
+\usebox0%
 \SourceOrNote{Autoria Própria (2024)}
-\end{figure}
+\end{photograph}
 
-A visualização do processo por meio do "\textit{Kanban}" ilustra de maneira inequívoca a eficácia dessa abordagem organizacional. Ao utilizar essa plataforma, a equipe não apenas obteve uma visão abrangente das atividades em curso, mas também adotou uma maneira intuitiva de priorizar, rastrear e validar tarefas. A estruturação dos quadros não apenas otimizou a produtividade, mas também fomentou a comunicação transparente e a tomada de decisões informadas dentro da equipe.
+Outro elemento visual bastante utilizado na seção de Resultados são as tabelas, pois elas fornecem uma estrutura visualmente organizada para apresentar dados, tornando a leitura e a compreensão do conteúdo mais fácil para o leitor. As células, linhas e colunas ajudam a alinhar informações de maneira sistemática.
+
+Para conjuntos de dados comparativos, as tabelas são particularmente úteis. Elas possibilitam a disposição lado a lado de informações relacionadas, facilitando a comparação direta entre diferentes elementos.
+
+Tabelas e quadros devem estar centralizados e conter apenas dados imprescindíveis, evitando-se que sejam muito extensos, não repetindo dados já inseridos no texto, ou vice-versa. O formato de tabela pode ser observado na \Cref{tab:example}.
+
+\begin{table}[!htb]
+\centering
+\SetCaptionWidth{0.5\linewidth}
+\caption{Exemplo de tabela}%
+\label{tab:example}
+\begin{tabularx}{\CaptionWidth}{@{}XY@{}}
+\toprule%
+\rowcolor{TableColor}
+\multicolumn{1}{Y}{\textcolor{white}{Idade}}           &
+\multicolumn{1}{Y}{\textcolor{white}{Percentual (\%)}} \\
+\midrule%
+Até 20 anos     & 0  \\
+De 21 a 30 anos & 10 \\
+De 31 a 40 anos & 20 \\
+De 41 a 50 anos & 30 \\
+\bottomrule%
+\end{tabularx}
+\SourceOrNote{Adaptada de \textcite{Beltrano2021}}
+\end{table}
+
+No caso de quadros, deve ser seguida a estrutura demonstrada no \Cref{tfrm:typography}.
+Caso os dados sejam inéditos e provenientes de uma pesquisa realizada pelos próprios autores do trabalho, essa especificação deve constar na fonte com o ano da pesquisa de campo.
+Nesse caso, a fonte deve ser: Autoria Própria (2024).
+
+\begin{tabframed}[!htb]
+\centering
+\caption{Tipografia das seções}%
+\label{tfrm:typography}
+\begin{tabularx}{\linewidth}{?{}p{20mm}|X|p{45mm}?{}}%% CHKTEX 44
+\toprule%
+\rowcolor{TableColor}
+\multicolumn{1}{?{}c|}{\textcolor{white}{Seção}}   &
+\multicolumn{1}{c|}{\textcolor{white}{Tipografia}} &
+\multicolumn{1}{c?{}}{\textcolor{white}{Exemplo}}  \\
+\midrule%
+Primária                     &
+Letras maiúsculas em negrito &
+\textbf{1 SEÇÃO PRIMÁRIA}    \\
+\midrule%
+Secundária                    &
+Letras maiúsculas sem negrito &
+1.1 SEÇÃO SECUNDÁRIA          \\
+\midrule%
+Terciária                                                             &
+Letra inicial de todas as palavras em maiúscula, sem negrito &
+1.1.1 Seção Terciária                                                 \\
+\midrule%
+Quaternária                                                          &
+Letra inicial da primeira palavra em maiúscula, sem negrito &
+1.1.1.1 Seção quaternária                                            \\
+\midrule%
+Quinária                                                                          &
+Letra inicial da primeira palavra em maiúscula, sem negrito e em itálico &
+\textit{1.1.1.1.1 Seção quinária}                                                 \\
+\bottomrule%
+\end{tabularx}
+\SourceOrNote{Autoria Própria (2024)}
+\end{tabframed}
+
+Quadros e tabelas podem ser inseridos neste documento usando os ambientes \texttt{tabframed} e \texttt{table}, respectivamente, conforme exemplos no arquivo-fonte deste modelo. A geração ou edição desses elementos visuais pode ser realizada por meio de ferramentas \textit{online}, tais como: \href{http://www.tablesgenerator.com/}{Tables Generator} e \href{http://www.latex-tables.com/}{Latex Tables Editor}, entre outras.
+
+\subsection*{Equações}
+
+Equações podem ser inseridas neste documento usando o ambiente  \texttt{equation}, como ilustrado na \Cref{eq:u}.
+
+\begin{equation}%
+\label{eq:u}
+u = \beta \operatorname{sen} \left(\pi x\right) \frac{\left(e^{2x} - 1\right) \left(e^y - 1\right)}{\left(e^2 - 1\right) \left(e - 1\right)}
+\end{equation}
+
+Símbolos matemáticos (ou equações mais simples) podem ser inseridos ao longo do texto de um parágrafo usando o ambiente do Latex \texttt{math}. É possível ainda, a utilização de ferramentas onlines para a geração ou edição de equações, tais como: \href{http://formulasheet.com/}{Formula Sheet} e \href{http://www.tutorialspoint.com/latex_equation_editor.htm}{Latex Equation Editor}.
+
