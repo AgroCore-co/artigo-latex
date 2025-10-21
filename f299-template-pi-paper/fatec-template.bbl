@@ -19,38 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{Fernando2020}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a6de3d1b017bc4709de588ddcba8dba2}{%
-           family={Boaglio},
-           familyi={B\bibinitperiod},
-           given={Fernando},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Vila Mariana - São Paulo, Rua Vergueiro, 3185 - 8º andar}%
-      }
-      \list{publisher}{1}{%
-        {Vivian Matsui, Carlos Felício}%
-      }
-      \strng{namehash}{a6de3d1b017bc4709de588ddcba8dba2}
-      \strng{fullhash}{a6de3d1b017bc4709de588ddcba8dba2}
-      \strng{fullhashraw}{a6de3d1b017bc4709de588ddcba8dba2}
-      \strng{bibnamehash}{a6de3d1b017bc4709de588ddcba8dba2}
-      \strng{authorbibnamehash}{a6de3d1b017bc4709de588ddcba8dba2}
-      \strng{authornamehash}{a6de3d1b017bc4709de588ddcba8dba2}
-      \strng{authorfullhash}{a6de3d1b017bc4709de588ddcba8dba2}
-      \strng{authorfullhashraw}{a6de3d1b017bc4709de588ddcba8dba2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{MongoDB Construa novas aplicações com novas tecnologias}
-      \field{year}{2020}
-    \endentry
     \entry{Bruna2021}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=5c53b983aa58134d47d496b5f745b7fb}{%
