@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  21 OCT 2025 20:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  22 OCT 2025 12:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1292,22 +1292,40 @@ Overfull \hbox (0.13039pt too wide) in paragraph at lines 7--8
 
 
 [4]) (Topicos/metodologia.tex
-LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
-(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 3.
+Package hyperref Info: bookmark level for unknown flowchart defaults to 0 on input line 7.
+<./Illustrations/diagrama_funcionario.png, id=67, 1606.0pt x 813.0375pt>
+File: ./Illustrations/diagrama_funcionario.png Graphic file (type png)
+<use ./Illustrations/diagrama_funcionario.png>
+Package pdftex.def Info: ./Illustrations/diagrama_funcionario.png  used on input line 9.
+(pdftex.def)             Requested size: 433.62581pt x 219.52306pt.
 
 
 [5]
-Package hyperref Info: bookmark level for unknown flowchart defaults to 0 on input line 15.
-<./Illustrations/buffs-arch-model.png, id=77, 2659.9375pt x 2208.25pt>
+<./Illustrations/diagrama_propreitario.png, id=75, 1505.625pt x 782.925pt>
+File: ./Illustrations/diagrama_propreitario.png Graphic file (type png)
+<use ./Illustrations/diagrama_propreitario.png>
+Package pdftex.def Info: ./Illustrations/diagrama_propreitario.png  used on input line 21.
+(pdftex.def)             Requested size: 421.57213pt x 219.2175pt.
+LaTeX Font Info:    Font shape `T1/lmss/m/it' in size <12> not available
+(Font)              Font shape `T1/lmss/m/sl' tried instead on input line 25.
+
+Overfull \hbox (14.11098pt too wide) in paragraph at lines 25--26
+[]\T1/lmss/m/n/12 (-20) Foi apresentada, anteriormente, toda a fundamentação teórica referente ao fluxo de funcionamento
+ []
+
+
+
+[6 <./Illustrations/diagrama_funcionario.png> <./Illustrations/diagrama_propreitario.png>]
+
+[7]
+<./Illustrations/buffs-arch-model.png, id=94, 2659.9375pt x 2208.25pt>
 File: ./Illustrations/buffs-arch-model.png Graphic file (type png)
 <use ./Illustrations/buffs-arch-model.png>
-Package pdftex.def Info: ./Illustrations/buffs-arch-model.png  used on input line 17.
+Package pdftex.def Info: ./Illustrations/buffs-arch-model.png  used on input line 39.
 (pdftex.def)             Requested size: 398.97342pt x 331.2232pt.
+)
 
-
-[6])
-
-[7 <./Illustrations/buffs-arch-model.png>] (fatec-template.aux
+[8 <./Illustrations/buffs-arch-model.png>] (fatec-template.aux
 Package cleveref Info: loaded `brazilian' language definitions on input line 15.
 Package cleveref Info: loaded `brazilian' language definitions on input line 16.
 Package cleveref Info: loaded `brazilian' language definitions on input line 17.
@@ -1329,11 +1347,11 @@ Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34359 strings out of 470067
- 620021 string characters out of 5482313
- 1629404 words of memory out of 5000000
- 62118 multiletter control sequences out of 15000+600000
- 675469 words of font info for 144 fonts, out of 8000000 for 9000
+ 34394 strings out of 470067
+ 621159 string characters out of 5482313
+ 1629633 words of memory out of 5000000
+ 62146 multiletter control sequences out of 15000+600000
+ 675701 words of font info for 146 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  87i,19n,131p,1786b,4574s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1364,9 +1382,9 @@ pdfTeX warning (dest): name{cite.0@IBGE2023} has been referenced but does not ex
 pdfTeX warning (dest): name{cite.0@ABCB2016} has been referenced but does not exist, replaced by a fixed one
 
 </home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss10.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss12.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss9.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmsso12.pfb>
-Output written on fatec-template.pdf (7 pages, 419689 bytes).
+Output written on fatec-template.pdf (8 pages, 507117 bytes).
 PDF statistics:
- 119 PDF objects out of 1000 (max. 8388607)
- 29 named destinations out of 1000 (max. 500000)
- 22035 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 132 PDF objects out of 1000 (max. 8388607)
+ 32 named destinations out of 1000 (max. 500000)
+ 22045 words of extra memory for PDF output out of 24883 (max. 10000000)
 

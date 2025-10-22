@@ -1,6 +1,28 @@
 O sistema proposto contempla o desenvolvimento de uma aplicação multiplataforma, composta por versões para web e dispositivos móveis, que atua como o principal meio de interação entre o usuário e os dados da propriedade. A aplicação oferece uma interface gráfica intuitiva, permitindo o acompanhamento completo das informações cadastradas e garantindo um controle preciso e em tempo real do rebanho, desde que a plataforma seja constantemente alimentada pelo usuário. Cada versão da aplicação desempenha um papel específico: a plataforma mobile, direcionada a funcionários e veterinários, prioriza a agilidade no lançamento de informações em campo; enquanto a versão web, voltada a gestores e proprietários, proporciona uma visualização mais ampla e detalhada dos dados em ambiente de escritório. Ambas atuam de forma integrada, promovendo sincronização automática e assegurando a consistência das informações em tempo real.
 
-Conforme ilustrado no \Cref{fcht:fluxograma}, a interação com o usuário inicia-se nas etapas I e II. A etapa I corresponde à plataforma web, desenvolvida em \textit{React} com o framework \textit{Next.js}. Atualmente, a plataforma web encontra-se hospedada na Vercel, uma solução \textit{serverless}, que dispensa a necessidade de um servidor dedicado. A etapa II refere-se à plataforma mobile, desenvolvida em \textit{React Native}, framework que consiste em um conjunto de ferramentas voltadas à criação de aplicações móveis nativas \cite{Bruna2021}. O aplicativo tem como principal funcionalidade oferecer uma interface simplificada e intuitiva, voltada ao lançamento de dados em campo.
+No \Cref{fcht:fluxograma1} é possivel verificar o fluxo que o Funcionário/Veterinário vão seguir, ao acessa o sistema por meio do aplicativo móvel, por onde realiza a inserção e consulta de informações zootécnicas, sanitárias, reprodutivas e produtivas. Quando ocorre o registro de uma nova ordenha, o sistema aciona uma inteligência artificial desenvolvida com base no modelo Gemini, responsável por identificar possíveis ocorrências de mastite nos animais. Caso seja detectada alguma anomalia, a IA realiza automaticamente a classificação do nível de gravidade da infecção, gerando alertas que auxiliam na execução de medidas corretivas e preventivas. As inserções de dados realizadas pelo aplicativo são enviadas à API, que as processa e atualiza no banco de dados principal. Esses registros alimentam também a segunda inteligência artificial do projeto, baseada no algoritmo Random Forest Regressor, utilizada para realizar predições da produção leiteira de cada animal.
+
+\begin{flowchart}[!htb]
+\centering
+\caption{Fluxograma visão do Funcionário/Veterinário}%
+\label{fcht:fluxograma1}
+\includegraphics[scale=0.27]{diagrama_funcionario}
+\SourceOrNote{Autoria Própria (2025)}
+\end{flowchart}
+
+\newpage
+
+Já no \Cref{fcht:fluxograma2}, o usuário acessa a plataforma web, onde são disponibilizados painéis interativos que apresentam indicadores consolidados de produtividade, sanidade e distribuição do rebanho. Nessa interface, o gestor pode consultar o prontuário individual dos animais, visualizar as predições geradas pela IA de regressão e acompanhar os alertas oriundos da análise de mastite. Caso necessário, é possível inserir ou atualizar informações diretamente pela plataforma web, mantendo a consistência do banco de dados sem a necessidade de acesso ao aplicativo móvel. Essa estrutura integrada permite que o gestor acompanhe em tempo real o desempenho produtivo da propriedade, utilizando dados concretos e análises automatizadas para fundamentar suas decisões de manejo e de investimento.
+
+\begin{flowchart}[!htb]
+\centering
+\caption{Fluxograma visão do Proprietário/Gestor}%
+\label{fcht:fluxograma2}
+\includegraphics[scale=0.28]{diagrama_propreitario}
+\SourceOrNote{Autoria Própria (2025)}
+\end{flowchart}
+
+Foi apresentada, anteriormente, toda a fundamentação teórica referente ao fluxo de funcionamento do sistema. Para que esse fluxo ocorra de forma adequada, é necessário o uso de um conjunto de ferramentas e tecnologias que viabilizam a comunicação entre as diferentes camadas da aplicação, conforme ilustrado na \Cref{fcht:arquitetura}. A interação com o usuário inicia-se nas etapas I e II. A Etapa I corresponde à plataforma web, desenvolvida em \textit{React} com o framework \textit{Next.js}. Atualmente, essa plataforma encontra-se hospedada na Vercel, uma solução \textit{serverless} que dispensa a necessidade de um servidor dedicado. A Etapa II refere-se à plataforma mobile, desenvolvida em \textit{React Native}, framework que consiste em um conjunto de ferramentas voltadas à criação de aplicações móveis nativas \cite{Bruna2021}. O aplicativo tem como principal funcionalidade oferecer uma interface simplificada e intuitiva, voltada ao lançamento de dados em campo.
 
 Ambas as plataformas comunicam-se com o Back-end (etapa III) por meio de uma Interface de Programação de Aplicações, do inglês \textit{Application Programming Interface} (API), desenvolvida em \textit{TypeScript} com o framework \textit{Nest.js}. Como parte do Back-end, foram implementados recursos adicionais com o objetivo de aperfeiçoar a usabilidade e a fluidez do sistema, destacando-se a integração com dois modelos de Inteligência Artificial(IA). A primeira delas é a API \textit{Gemini} (etapa IV), um modelo generativo multimodal desenvolvido pelo Google. No contexto deste projeto, a \textit{Gemini} é utilizada no sistema de alertas, por meio do modelo \textit{gemini-1.5-flash}. Essa implementação analisa um \textit{prompt} elaborado especificamente para o domínio do sistema e define a prioridade de cada alerta como alta, média ou baixa, simplificando de maneira significativa a lógica de priorização e resposta.
 
@@ -13,12 +35,10 @@ Para o armazenamento das informações, o banco de dados do sistema (etapa VII) 
 \begin{flowchart}[!htb]
 \centering
 \caption{Arquitetura do fluxo das redes}%
-\label{fcht:fluxograma}
+\label{fcht:arquitetura}
 \includegraphics[scale=0.15]{buffs-arch-model}
-\SourceOrNote{Autoria Própria (2024)}
+\SourceOrNote{Autoria Própria (2025)}
 \end{flowchart}
 
-\newpage
-Após a análise do fluxo apresentado, nota-se que grande parte do sistema encontra-se hospedada na nuvem, seja por meio de serviços \textit{serverless}, de bancos de dados em ambiente cloud ou de máquinas virtuais dedicadas. Essas escolhas, no momento atual, mostraram-se adequadas sob a ótica do grupo, uma vez que permitem distribuir as \textit{stacks} entre diferentes serviços, evitando a sobrecarga de um único sistema. Além disso, essa configuração possibilita a realização de testes de forma gratuita, sem a necessidade de investimentos iniciais em infraestrutura. Essa abordagem visa preparar o sistema para as próximas etapas do projeto, especialmente a fase de testes e validação da plataforma em um ambiente real, como uma propriedade rural parceira que venha a colaborar com o experimento. Após a conclusão da fase de validação, será possível mensurar o volume de recursos necessários para manter o sistema operacional de maneira estável, avaliando o custo-benefício e o dimensionamento adequado da infraestrutura, de modo a garantir a continuidade e o desempenho da aplicação.
-
+Após a análise do fluxo apresentado, nota-se que grande parte do sistema encontra-se hospedada na nuvem, seja por meio de serviços \textit{serverless}, bancos de dados em ambiente \textit{cloud} ou máquinas virtuais dedicadas. Essas escolhas, no momento atual, mostraram-se adequadas sob a ótica do grupo, uma vez que permitem distribuir as \textit{stacks} entre diferentes serviços, evitando a sobrecarga de um único sistema. Além disso, essa configuração possibilita a realização de testes de forma gratuita, sem a necessidade de investimentos iniciais em infraestrutura. Outro fator determinante nas decisões de arquitetura foi o alinhamento com os conteúdos abordados em sala de aula, privilegiando tecnologias e metodologias com as quais o grupo possui maior afinidade e embasamento técnico. Essa estratégia busca não apenas consolidar o aprendizado adquirido ao longo do curso, mas também garantir que o desenvolvimento ocorra de maneira segura e fundamentada em conhecimentos previamente assimilados.
 
