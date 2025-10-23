@@ -51,41 +51,6 @@
       \field{title}{React Native Desenvolvimento de aplicativos mobile com React}
       \field{year}{2021}
     \endentry
-    \entry{Alexandre2008}{thesis}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=275d6475a3bf1e7183c37ad36e23799b}{%
-           family={Carvalho},
-           familyi={C\bibinitperiod},
-           given={Alexandre},
-           giveni={A\bibinitperiod},
-           givenun=0,
-           prefix={de},
-           prefixi={d\bibinitperiod},
-           prefixun=0}}%
-      }
-      \list{institution}{1}{%
-        {Universidade Jose do Rosario Vellano}%
-      }
-      \strng{namehash}{275d6475a3bf1e7183c37ad36e23799b}
-      \strng{fullhash}{275d6475a3bf1e7183c37ad36e23799b}
-      \strng{fullhashraw}{275d6475a3bf1e7183c37ad36e23799b}
-      \strng{bibnamehash}{275d6475a3bf1e7183c37ad36e23799b}
-      \strng{authorbibnamehash}{275d6475a3bf1e7183c37ad36e23799b}
-      \strng{authornamehash}{275d6475a3bf1e7183c37ad36e23799b}
-      \strng{authorfullhash}{275d6475a3bf1e7183c37ad36e23799b}
-      \strng{authorfullhashraw}{275d6475a3bf1e7183c37ad36e23799b}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{bookpagination}{sheet}
-      \field{month}{6}
-      \field{title}{Software para controle produtivo e reprodutivo de bovinos leiteiros na agricultura familiar}
-      \field{type}{mathesis}
-      \field{year}{2008}
-    \endentry
     \entry{Embrapa1998}{book}{}{}
       \list{publisher}{1}{%
         {MARQUES, J. R. F.}%
@@ -100,6 +65,39 @@
       \field{series}{Coleção criar, 5}
       \field{title}{Criação de búfalos}
       \field{year}{1998}
+    \endentry
+    \entry{LIMA2023}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a2dcdd93e895fbca2438b3eb70bfc2a8}{%
+           family={Daniel\bibnamedelimb F.\bibnamedelimi Lima},
+           familyi={D\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Rogério\bibnamedelimb L.\bibnamedelimi S.\bibnamedelimi Oliveira},
+           giveni={R\bibinitperiod\bibinitdelim L\bibinitperiod\bibinitdelim S\bibinitperiod\bibinitdelim O\bibinitperiod},
+           givenun=0,
+           suffix={Teodoro\bibnamedelimb P.\bibnamedelimi Marques},
+           suffixi={T\bibinitperiod\bibinitdelim P\bibinitperiod\bibinitdelim M\bibinitperiod},
+           suffixun=0}}%
+      }
+      \strng{namehash}{a2dcdd93e895fbca2438b3eb70bfc2a8}
+      \strng{fullhash}{a2dcdd93e895fbca2438b3eb70bfc2a8}
+      \strng{fullhashraw}{a2dcdd93e895fbca2438b3eb70bfc2a8}
+      \strng{bibnamehash}{a2dcdd93e895fbca2438b3eb70bfc2a8}
+      \strng{authorbibnamehash}{a2dcdd93e895fbca2438b3eb70bfc2a8}
+      \strng{authornamehash}{a2dcdd93e895fbca2438b3eb70bfc2a8}
+      \strng{authorfullhash}{a2dcdd93e895fbca2438b3eb70bfc2a8}
+      \strng{authorfullhashraw}{a2dcdd93e895fbca2438b3eb70bfc2a8}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{journaltitle}{FACULDADE DE TECNOLOGIA PROFESSOR JOSÉ CAMARGO – FATEC JALES}
+      \field{month}{ago}
+      \field{title}{LEITE COWTROL: CONTROLE DE PRODUÇÃO DE LEITE E REPRODUÇÃO DE GADO}
+      \field{type}{mathesis}
+      \field{year}{2023}
     \endentry
     \entry{IBGE2023}{online}{}{}
       \name{author}{1}{}{%
@@ -130,39 +128,6 @@
       \verb{url}
       \verb https://www.ibge.gov.br/explica/producao-agropecuaria/bubalinos/br
       \endverb
-    \endentry
-    \entry{Carlos1995}{report}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=08fde182f7e18e34de1f10956c91bb6a}{%
-           family={MEIRA},
-           familyi={M\bibinitperiod},
-           given={CARLOS\bibnamedelimb ALBERTO\bibnamedelima ALVES},
-           giveni={C\bibinitperiod\bibinitdelim A\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{institution}{1}{%
-        {CNPTIA - EMBRAPA}%
-      }
-      \list{location}{1}{%
-        {Rodovia SP 65 Km 143,6 - Bairro dos Amarais}%
-      }
-      \strng{namehash}{08fde182f7e18e34de1f10956c91bb6a}
-      \strng{fullhash}{08fde182f7e18e34de1f10956c91bb6a}
-      \strng{fullhashraw}{08fde182f7e18e34de1f10956c91bb6a}
-      \strng{bibnamehash}{08fde182f7e18e34de1f10956c91bb6a}
-      \strng{authorbibnamehash}{08fde182f7e18e34de1f10956c91bb6a}
-      \strng{authornamehash}{08fde182f7e18e34de1f10956c91bb6a}
-      \strng{authorfullhash}{08fde182f7e18e34de1f10956c91bb6a}
-      \strng{authorfullhashraw}{08fde182f7e18e34de1f10956c91bb6a}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{SISCOREB: sistema para controle de rebanho leiteiro}
-      \field{type}{Artigo em anais e proceedings}
-      \field{year}{1995}
     \endentry
     \entry{EMBRAPA2019}{report}{}{}
       \name{author}{1}{}{%
@@ -291,6 +256,38 @@
       \field{title}{Introdução dos Búfalos no Brasil}
       \field{type}{techreport}
       \field{year}{2016}
+    \endentry
+    \entry{SCHÄFFER2021}{thesis}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=104ec0dbbc3be51e5e431e9f27d35dcf}{%
+           family={SCHÄFFER},
+           familyi={S\bibinitperiod},
+           given={JEAN\bibnamedelima MATEUS},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{institution}{1}{%
+        {Instituto Federal de Educação Ciência e Tecnologia Farroupilha}%
+      }
+      \strng{namehash}{104ec0dbbc3be51e5e431e9f27d35dcf}
+      \strng{fullhash}{104ec0dbbc3be51e5e431e9f27d35dcf}
+      \strng{fullhashraw}{104ec0dbbc3be51e5e431e9f27d35dcf}
+      \strng{bibnamehash}{104ec0dbbc3be51e5e431e9f27d35dcf}
+      \strng{authorbibnamehash}{104ec0dbbc3be51e5e431e9f27d35dcf}
+      \strng{authornamehash}{104ec0dbbc3be51e5e431e9f27d35dcf}
+      \strng{authorfullhash}{104ec0dbbc3be51e5e431e9f27d35dcf}
+      \strng{authorfullhashraw}{104ec0dbbc3be51e5e431e9f27d35dcf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{bookpagination}{sheet}
+      \field{month}{11}
+      \field{title}{PROTÓTIPO DE UM SISTEMA WEB PARA GESTÃO E CONTROLE DOS BOVINOS}
+      \field{type}{mathesis}
+      \field{year}{2021}
     \endentry
   \enddatalist
 \endrefsection

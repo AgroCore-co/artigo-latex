@@ -421,6 +421,7 @@ INPUT ./Topicos/estadodaarte.tex
 INPUT ./Topicos/estadodaarte.tex
 INPUT ./Topicos/estadodaarte.tex
 INPUT Topicos/estadodaarte.tex
+INPUT /home/v1nisouza/.miktex/texmfs/install/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./Topicos/metodologia.tex
 INPUT ./Topicos/metodologia.tex
 INPUT ./Topicos/metodologia.tex
@@ -438,7 +439,6 @@ INPUT ./Illustrations/diagrama_propreitario.png
 INPUT ./Illustrations/diagrama_propreitario.png
 INPUT ./Illustrations/diagrama_propreitario.png
 INPUT ./Illustrations/diagrama_propreitario.png
-INPUT /home/v1nisouza/.miktex/texmfs/install/fonts/tfm/public/lm/ec-lmsso12.tfm
 INPUT ./Illustrations/buffs-arch-model.png
 INPUT ./Illustrations/buffs-arch-model.png
 INPUT ./Illustrations/buffs-arch-model.png

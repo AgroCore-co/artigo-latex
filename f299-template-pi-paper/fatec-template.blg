@@ -1,0 +1,21 @@
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'fatec-template.blg'
+[66] biber:342> INFO - === qui out 23, 2025, 15:58:00
+[81] Biber.pm:421> INFO - Reading 'fatec-template.bcf'
+[149] Biber.pm:1002> INFO - Found 9 citekeys in bib section 0
+[162] Biber.pm:4487> INFO - Processing section 0
+[170] Biber.pm:4678> INFO - Looking for bibtex file 'fatec-article.bib' for section 0
+[172] bibtex.pm:1713> INFO - LaTeX decoding ...
+[192] bibtex.pm:1519> INFO - Found BibTeX data source 'fatec-article.bib'
+[256] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[256] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[256] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[256] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[267] bbl.pm:676> INFO - Writing 'fatec-template.bbl' with encoding 'UTF-8'
+[271] bbl.pm:779> INFO - Output to fatec-template.bbl
+[271] Biber.pm:132> WARN - legacy month field 'may' in entry 'EMBRAPA2019' is not an integer - this will probably not sort properly.
+[271] Biber.pm:132> WARN - legacy month field 'nov' in entry 'SCHÄFFER2021' is not an integer - this will probably not sort properly.
+[271] Biber.pm:132> WARN - legacy month field 'mar' in entry 'Pamella2017' is not an integer - this will probably not sort properly.
+[271] Biber.pm:132> WARN - legacy month field 'ago' in entry 'LIMA2023' is not an integer - this will probably not sort properly.
+[271] Biber.pm:132> WARN - I didn't find a database entry for crossref 'Brasilia, DF: Embrapa-SPI; Belém, PA: Embrapa-CPATU, 1998' in entry 'Embrapa1998' - ignoring (section 0)
+[272] Biber.pm:134> INFO - WARNINGS: 5
