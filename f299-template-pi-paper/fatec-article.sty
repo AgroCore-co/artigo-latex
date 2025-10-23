@@ -299,10 +299,10 @@
 \forcsvlist{\SectAutoRefName}{section, subsection, subsubsection, paragraph, subparagraph}
 %%%% Definições em português
 \csappto{extrasbrazilian}{%
-  \renewcommand*{\MECName}{Ministério da Educação}%
-  \renewcommand*{\fatecName}{Faculdade de Tecnologia}%
+  \renewcommand*{\MECName}{Governo do Estado de São Paulo}%
+  \renewcommand*{\fatecName}{Faculdade de Tecnologia do Estado de São Paulo}%
   \renewcommand*{\BRName}{Brasil}%
-  \renewcommand*{\CityCall}{Registro}%
+  \renewcommand*{\CityCall}{Estadual de Educação Tecnológica Paula Souza}%
   \renewcommand*{\InstDeptEx}{Desenvolvimento de Software Multiplataforma}%
   \renewcommand*{\FullNameCall}{Nome Completo do{(a)} Autor{(a)}}%
   \renewcommand*{\KWCall}{Palavras-chave}%
@@ -404,7 +404,7 @@
 \newcommand*{\LengthTo}{\@ifstar{\s@LengthTo}{\@LengthTo}}
 
 %%%% Instituição
-\define@key{Institution}{Campus}{\ifblank{#1}{}{\csdef{InstCmps}{#1}}}
+\define@key{Institution}{Centro}{\ifblank{#1}{}{\csdef{InstCmps}{#1}}}
 \define@key{Institution}{Department}{\ifblank{#1}{}{\csdef{InstDept}{#1}}}
 \define@key{Institution}{DeptLogo}{\ifblank{#1}{}{\csdef{InstDeptLogo}{#1}}}
 \csletcs{KV@Institution@campus}{KV@Institution@Campus}

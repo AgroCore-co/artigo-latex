@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  22 OCT 2025 12:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  22 OCT 2025 21:22
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1349,7 +1349,7 @@ Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 Here is how much of TeX's memory you used:
  34394 strings out of 470067
  621159 string characters out of 5482313
- 1629633 words of memory out of 5000000
+ 1629771 words of memory out of 5000000
  62146 multiletter control sequences out of 15000+600000
  675701 words of font info for 146 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
@@ -1382,7 +1382,7 @@ pdfTeX warning (dest): name{cite.0@IBGE2023} has been referenced but does not ex
 pdfTeX warning (dest): name{cite.0@ABCB2016} has been referenced but does not exist, replaced by a fixed one
 
 </home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss10.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss12.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss9.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmsso12.pfb>
-Output written on fatec-template.pdf (8 pages, 507117 bytes).
+Output written on fatec-template.pdf (8 pages, 507741 bytes).
 PDF statistics:
  132 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
