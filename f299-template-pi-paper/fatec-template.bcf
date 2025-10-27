@@ -2469,12 +2469,11 @@
     <bcf:citekey order="2" intorder="1">IBGE2023</bcf:citekey>
     <bcf:citekey order="3" intorder="1">EMBRAPA2019</bcf:citekey>
     <bcf:citekey order="4" intorder="1">Embrapa1998</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Embrapa1998</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">FORPROEX</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">SCHÄFFER2021</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">Pamella2017</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">LIMA2023</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Bruna2021</bcf:citekey>
+    <bcf:citekey order="5" intorder="1">FORPROEX</bcf:citekey>
+    <bcf:citekey order="6" intorder="1">SCHAFFER2021</bcf:citekey>
+    <bcf:citekey order="7" intorder="1">Pamella2017</bcf:citekey>
+    <bcf:citekey order="8" intorder="1">LIMA2023</bcf:citekey>
+    <bcf:citekey order="9" intorder="1">Bruna2021</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">
@@ -2518,4 +2517,14 @@
     </bcf:sort>
   </bcf:sortingtemplate>
   <!-- DATALISTS -->
+  <bcf:datalist section="0"
+                name="nty/global//global/global/global"
+                type="entry"
+                sortingtemplatename="nty"
+                sortingnamekeytemplatename="global"
+                labelprefix=""
+                uniquenametemplatename="global"
+                labelalphanametemplatename="global"
+                namehashtemplatename="global">
+  </bcf:datalist>
 </bcf:controlfile>
