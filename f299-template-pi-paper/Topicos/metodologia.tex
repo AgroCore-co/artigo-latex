@@ -27,14 +27,14 @@ A plataforma proposto, denominado Buffs, consiste no desenvolvimento de uma apli
 \caption{Exemplos de telas da plataforma web, mostrando indicadores, piquetes e inventário do rebanho}
 \centering
 \label{fig:web}
-\begin{subfigure}[b]{0.437\textwidth}
+\begin{subfigure}[b]{0.424\textwidth}
     \centering
     \includegraphics[width=\textwidth]{web/coleta}
     \caption{Feedback de uma coleta}
     \label{fig:web_coleta}
 \end{subfigure}
 \hfill
-\begin{subfigure}[b]{0.437\textwidth}
+\begin{subfigure}[b]{0.424\textwidth}
     \centering
     \includegraphics[width=\textwidth]{web/piquete}
     \caption{Visualização de piquetes}
@@ -54,7 +54,7 @@ A plataforma proposto, denominado Buffs, consiste no desenvolvimento de uma apli
 \SourceOrNote{Autoria Própria (2025)}
 \end{figure}
 
-
+\newpage
 
 No \Cref{fcht:fluxograma1} é possivel verificar o fluxo que o Funcionário/Veterinário vão seguir, ao acessa o sistema por meio do aplicativo móvel, por onde realiza a inserção e consulta de informações zootécnicas, sanitárias, reprodutivas e produtivas. Durante o registro de uma nova ordenha, o sistema ativa automaticamente a inteligência artificial(IA) generativa Gemini, que analisa os dados inseridos e identifica descrições compatíveis com mastite. Quando uma ocorrência é constatada, a IA classifica seu nível de gravidade, emitindo alertas que orientam o usuário quanto à urgência de intervenção. Essa abordagem automatizada reduz o risco de omissões, padroniza decisões e agiliza o tratamento clínico, garantindo maior confiabilidade ao processo. As inserções de dados realizadas pelo aplicativo são enviadas à Interface de Programação de Aplicações, do inglês \textit{Application Programming Interface} (API), que as processa e atualiza no banco de dados principal. Esses registros alimentam também a segunda inteligência artificial do projeto, baseada no algoritmo Random Forest Regressor, utilizada para realizar predições da produção leiteira de cada animal.
 
@@ -67,7 +67,7 @@ No \Cref{fcht:fluxograma1} é possivel verificar o fluxo que o Funcionário/Vete
 \end{flowchart}
 
 Já no \Cref{fcht:fluxograma2}, o usuário acessa a plataforma web, onde são disponibilizados painéis interativos que apresentam indicadores consolidados de produtividade, sanidade e distribuição do rebanho. Nessa interface, o gestor pode consultar o prontuário individual dos animais, visualizar as predições geradas pela IA de regressão e acompanhar os alertas oriundos da análise de mastite. Caso necessário, é possível inserir ou atualizar informações diretamente pela plataforma web, mantendo a consistência do banco de dados sem a necessidade de acesso ao aplicativo móvel. Essa estrutura integrada permite que o gestor acompanhe em tempo real o desempenho produtivo da propriedade, utilizando dados concretos e análises automatizadas para fundamentar suas decisões de manejo e de investimento.
-
+\newpage
 \begin{flowchart}[!htb]
 \centering
 \caption{Fluxograma visão do Proprietário/Gestor}%

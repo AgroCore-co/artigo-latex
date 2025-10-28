@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  27 OCT 2025 18:47
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.10.7)  28 OCT 2025 20:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1341,31 +1341,34 @@ File: ./Illustrations/mobile/rebanho.png Graphic file (type png)
 <use ./Illustrations/mobile/rebanho.png>
 Package pdftex.def Info: ./Illustrations/mobile/rebanho.png  used on input line 18.
 (pdftex.def)             Requested size: 120.92421pt x 269.40884pt.
-<./Illustrations/web/coleta.jpeg, id=81, 1262.7175pt x 631.35875pt>
-File: ./Illustrations/web/coleta.jpeg Graphic file (type jpg)
-<use ./Illustrations/web/coleta.jpeg>
-Package pdftex.def Info: ./Illustrations/web/coleta.jpeg  used on input line 32.
-(pdftex.def)             Requested size: 211.37381pt x 105.68219pt.
-<./Illustrations/web/piquete.jpeg, id=82, 1265.72874pt x 626.34pt>
-File: ./Illustrations/web/piquete.jpeg Graphic file (type jpg)
-<use ./Illustrations/web/piquete.jpeg>
-Package pdftex.def Info: ./Illustrations/web/piquete.jpeg  used on input line 39.
-(pdftex.def)             Requested size: 211.37381pt x 104.59363pt.
-<./Illustrations/web/rebanho.jpeg, id=83, 1263.72125pt x 636.3775pt>
-File: ./Illustrations/web/rebanho.jpeg Graphic file (type jpg)
-<use ./Illustrations/web/rebanho.jpeg>
-Package pdftex.def Info: ./Illustrations/web/rebanho.jpeg  used on input line 48.
-(pdftex.def)             Requested size: 217.66211pt x 109.61015pt.
+<./Illustrations/web/coleta.png, id=81, 1885.0425pt x 959.585pt>
+File: ./Illustrations/web/coleta.png Graphic file (type png)
+<use ./Illustrations/web/coleta.png>
+Package pdftex.def Info: ./Illustrations/web/coleta.png  used on input line 32.
+(pdftex.def)             Requested size: 205.08551pt x 104.39795pt.
+<./Illustrations/web/piquete.png, id=82, 1885.0425pt x 959.585pt>
+File: ./Illustrations/web/piquete.png Graphic file (type png)
+<use ./Illustrations/web/piquete.png>
+Package pdftex.def Info: ./Illustrations/web/piquete.png  used on input line 39.
+(pdftex.def)             Requested size: 205.08551pt x 104.39795pt.
+<./Illustrations/web/rebanho.png, id=83, 1885.0425pt x 959.585pt>
+File: ./Illustrations/web/rebanho.png Graphic file (type png)
+<use ./Illustrations/web/rebanho.png>
+Package pdftex.def Info: ./Illustrations/web/rebanho.png  used on input line 48.
+(pdftex.def)             Requested size: 217.66211pt x 110.79652pt.
 
 
-[6 <./Illustrations/mobile/home.png> <./Illustrations/mobile/rebanho.png> <./Illustrations/web/coleta.jpeg> <./Illustrations/web/piquete.jpeg> <./Illustrations/web/rebanho.jpeg>]
+[6 <./Illustrations/mobile/home.png> <./Illustrations/mobile/rebanho.png> <./Illustrations/web/coleta.png> <./Illustrations/web/piquete.png> <./Illustrations/web/rebanho.png>]
 Package hyperref Info: bookmark level for unknown flowchart defaults to 0 on input line 63.
 <./Illustrations/diagrama_funcionario.png, id=91, 1606.0pt x 813.0375pt>
 File: ./Illustrations/diagrama_funcionario.png Graphic file (type png)
 <use ./Illustrations/diagrama_funcionario.png>
 Package pdftex.def Info: ./Illustrations/diagrama_funcionario.png  used on input line 65.
 (pdftex.def)             Requested size: 401.49902pt x 203.25888pt.
-<./Illustrations/diagrama_propreitario.png, id=93, 1505.625pt x 782.925pt>
+
+
+[7 <./Illustrations/diagrama_funcionario.png>]
+<./Illustrations/diagrama_propreitario.png, id=101, 1505.625pt x 782.925pt>
 File: ./Illustrations/diagrama_propreitario.png Graphic file (type png)
 <use ./Illustrations/diagrama_propreitario.png>
 Package pdftex.def Info: ./Illustrations/diagrama_propreitario.png  used on input line 75.
@@ -1376,8 +1379,6 @@ Overfull \hbox (14.35597pt too wide) in paragraph at lines 79--80
  []
 
 
-
-[7 <./Illustrations/diagrama_funcionario.png>]
 
 [8 <./Illustrations/diagrama_propreitario.png>]
 <./Illustrations/buffs-arch-model.png, id=112, 2659.9375pt x 2208.25pt>
@@ -1448,15 +1449,15 @@ Package logreq Info: Writing requests to 'fatec-template.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 34851 strings out of 470067
- 630794 string characters out of 5482313
+ 34833 strings out of 470067
+ 630398 string characters out of 5482313
  1635226 words of memory out of 5000000
- 62555 multiletter control sequences out of 15000+600000
+ 62537 multiletter control sequences out of 15000+600000
  682271 words of font info for 162 fonts, out of 8000000 for 9000
  0 hyphenation exceptions out of 8191
  87i,19n,131p,1786b,4578s stack positions out of 10000i,1000n,20000p,200000b,200000s
 </home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/newtx/NewTXMI.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss10.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss12.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmss9.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmssbx10.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmsso12.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/lm/lmtt12.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/newtx/txmiaX.pfb></home/v1nisouza/.miktex/texmfs/install/fonts/type1/public/newtx/ztmr.pfb>
-Output written on fatec-template.pdf (12 pages, 1092369 bytes).
+Output written on fatec-template.pdf (12 pages, 1098016 bytes).
 PDF statistics:
  196 PDF objects out of 1000 (max. 8388607)
  42 named destinations out of 1000 (max. 500000)

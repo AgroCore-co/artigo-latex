@@ -1,13 +1,13 @@
 # Fdb version 4
-["biber fatec-template"] 1761577211.83012 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761601678.50272 0
+["biber fatec-template"] 1761577211.83012 "fatec-template.bcf" "fatec-template.bbl" "fatec-template" 1761695500.0171 0
   "fatec-article.bib" 1761259623.80206 9113 9f1b34f4d5d556ed65643eac042bc45f ""
-  "fatec-template.bcf" 1761601678.21661 114737 dfb56c092aa33d55b8d28965ce471ca0 "pdflatex"
+  "fatec-template.bcf" 1761695499.82491 114737 dfb56c092aa33d55b8d28965ce471ca0 "pdflatex"
   (generated)
   "fatec-template.bbl"
   "fatec-template.blg"
   (rewritten before read)
-["pdflatex"] 1761601673.86042 "/home/v1nisouza/Área de trabalho/artigo-latex/f299-template-pi-paper/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761601678.50311 0
-  "/home/v1nisouza/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1761178871.83518 113921 75604e4c9d76ce992919a06b2f479018 ""
+["pdflatex"] 1761695496.20212 "/home/v1nisouza/Área de trabalho/artigo-latex/f299-template-pi-paper/fatec-template.tex" "fatec-template.pdf" "fatec-template" 1761695500.01745 0
+  "/home/v1nisouza/.miktex/texmfs/data/fonts/map/pdftex/pdftex.map" 1761690995.49556 118633 68432cd66343f12f5b8f3dfb54f3caca ""
   "/home/v1nisouza/.miktex/texmfs/data/miktex/data/le/pdftex/pdflatex.fmt" 1759880156.12673 10086445 5638121a40a67cec7a4c30f2727e2fee ""
   "/home/v1nisouza/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ec.enc" 1759880193.43273 2375 baa924870cfb487815765f9094cf3728 ""
   "/home/v1nisouza/.miktex/texmfs/install/fonts/enc/dvips/lm/lm-ts1.enc" 1759880193.43509 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
@@ -203,20 +203,20 @@
   "Illustrations/fatec.jpg" 1760641276.51692 52462 7162290721d52295d6baa528be1be034 ""
   "Illustrations/mobile/home.png" 1761573334.94307 80985 a6c04fcb0523ee152b66d6ebdf4be153 ""
   "Illustrations/mobile/rebanho.png" 1761573340.31393 84604 a0db41f12629424b82fa48316a3f173f ""
-  "Illustrations/web/coleta.jpeg" 1761571480.005 90874 579584554df2f012dda90a35464760fc ""
-  "Illustrations/web/piquete.jpeg" 1761571483.66256 90821 281c633f23f308c5ba37b1baba85c0d1 ""
-  "Illustrations/web/rebanho.jpeg" 1761571468.9115 81388 54931c41d04a38304e1ed112c326e8e8 ""
+  "Illustrations/web/coleta.png" 1761695171.48197 161541 05f99b624117d296b697e52e671bc6f4 ""
+  "Illustrations/web/piquete.png" 1761695163.52895 197692 d87db0954bdee2c12c6b8c7657a42957 ""
+  "Illustrations/web/rebanho.png" 1761695178.64045 97922 18857e1ac42288f2b8b5da3ee8d1db33 ""
   "Topicos/conclusao.tex" 1761579062.26918 2015 04e5bdf614f149b49afc15bb5cba9c16 ""
   "Topicos/estadodaarte.tex" 1761601673.39372 6748 6e64282a87af55bd6a2fa58c5d53456a ""
   "Topicos/introducao.tex" 1761259032.43036 7281 eea8ba523123c756838847e92606c218 ""
-  "Topicos/metodologia.tex" 1761601373.81856 10980 41a09590072a766c8b0930b740032ef4 ""
+  "Topicos/metodologia.tex" 1761695495.7059 10996 e5eacf30536c3f49da2c708c30fae52e ""
   "Topicos/objetivo.tex" 1761601224.53955 2138 0ae3bf09ca8d1ab182d1e9496449eb0f ""
   "Topicos/resultados.tex" 1761601437.2062 1329 5702ee62fc9996e69b8c2f552875adda ""
   "fatec-article.sty" 1761178967.55488 45435 c2541a193b29b6874c83c79714a8c0b7 ""
-  "fatec-template.aux" 1761601677.98862 7552 4f61b296fbf43c29737f92d1341f61ed "pdflatex"
+  "fatec-template.aux" 1761695499.61392 7552 c66e66ff3951a7e56421d4566717ede7 "pdflatex"
   "fatec-template.bbl" 1761577219.87261 13335 90cef4d443061bd979d0a162492ba9af "biber fatec-template"
-  "fatec-template.out" 1761601678.21061 236 62391d1d4f63d9a2f7762d0d4414c04a "pdflatex"
-  "fatec-template.run.xml" 1761601678.22007 2617 4d46f5d56bcd78c60e0607a558d03956 "pdflatex"
+  "fatec-template.out" 1761695499.81991 236 62391d1d4f63d9a2f7762d0d4414c04a "pdflatex"
+  "fatec-template.run.xml" 1761695499.82668 2617 4d46f5d56bcd78c60e0607a558d03956 "pdflatex"
   "fatec-template.tex" 1761601225.49843 4618 b96e7dc3afffa05034c89c5addeedc2d ""
   (generated)
   "fatec-template.aux"
